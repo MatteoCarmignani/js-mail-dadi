@@ -30,12 +30,12 @@ const user =prompt("Digita la tua Email");
 
   if (user === mail[i]) {
 
-    console.log("Benvenuto " + user + ", goditi la festa")
+    console.log("Benvenuto " + user + ", goditi la festa") 
 
-  } else if (user !== mail[i]) {
+} else {
 
-    console.log("Mi dispiace " + user + " ma non sei stato invitato alla festa")
+    console.log("Mi dispiace " + user + ", non sei stato invitato") 
 
-  }
+}
+}
 
- }
