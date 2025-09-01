@@ -1,5 +1,7 @@
 // DADI
 
+console.log("Minigioco dei dadi, chi fa il numero più alto vince!!!")
+
 const primoDado = Math.floor(Math.random() * 6) + 1;
 console.log(primoDado); 
 
@@ -22,7 +24,11 @@ if (primoDado > secondoDado) {
 
 // MAIL
 
-const mail = ["Alberto", "Alessandro", "Guglielmo", "Andrea", "Maria"]
+console.log("")
+
+console.log("Invito tramite mail, solo se la tua mail corrisponde a quella dei partecipanti puoi entrare")
+
+const mail = ["alberto@gmail.com", "alessandro@gmail.com", "guglielmo@gmail.com", "andrea@gmail.com", "maria@gmail.com", "giorgia@gmail.com", "valentina@gmail.com", "alessia@gmail.com"]
 
 const user =prompt("Digita la tua Email");
 
@@ -42,5 +48,5 @@ let flag = false;
 if(flag === true){
     console.log("Benvenuto/a " + user + ", goditi la festa") 
 }else{
-    console.log("Mi dispiace " + user + ", non sei stato invitato") 
+    console.log("Mi dispiace " + user + ", non sei stato invitato/a") 
 }
