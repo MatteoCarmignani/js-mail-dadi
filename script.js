@@ -26,16 +26,21 @@ const mail = ["Alberto", "Alessandro", "Guglielmo", "Andrea", "Maria"]
 
 const user =prompt("Digita la tua Email");
 
+let flag = false;
+
  for (let i = 0; i < mail.length; i++) {
 
-  if (user === mail[i]) {
+    if (user === mail[i]) {
 
-    console.log("Benvenuto " + user + ", goditi la festa") 
+        flag = true;  
+        
+    }
+    
+}
 
-} else {
 
+if(flag === true){
+    console.log("Benvenuto/a " + user + ", goditi la festa") 
+}else{
     console.log("Mi dispiace " + user + ", non sei stato invitato") 
-
 }
-}
-
